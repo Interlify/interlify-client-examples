@@ -35,7 +35,6 @@ async function processMessages(messageList: any[]) {
         messageList.push(responseMessage);
         
         for (const toolCall of toolCalls) {
-            console.log("toolCall: ", toolCall)
             const functionResponse = await interlify.callTool(toolCall.function);
             messageList.push({
                 tool_call_id: toolCall.id,
