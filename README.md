@@ -4,6 +4,6 @@
 
 Connect your APIs to LLMs in minutes!
 
-This repo provides client example for both Python and TypeScript.
+This repo provides client examples for both Python and TypeScript.
 
-For detailed step by step guide, please check our [Documentaion](httpsL//wwww.interlify.com/docs).
+For the detailed step-by-step guidance, please check our [Documentaion](httpsL//wwww.interlify.com/docs).
