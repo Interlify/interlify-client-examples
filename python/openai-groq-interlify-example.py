@@ -1,5 +1,5 @@
 import json
-from groq import Groq
+from openai
 from interlify import Interlify
 
 ACCESS_TOKEN="YOUR_API_ACCESS_TOKEN"
@@ -7,7 +7,8 @@ ACCESS_TOKEN="YOUR_API_ACCESS_TOKEN"
 model = "llama-3.3-70b-versatile"
 
 
-client = Groq(
+client = openai.OpenAI(
+    base_url="https://api.groq.com/openai/v1",
     api_key="YOUR_GROQ_API_KEY",
 )
 
